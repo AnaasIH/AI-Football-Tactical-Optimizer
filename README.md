@@ -7,7 +7,7 @@ An advanced, end-to-end sports analytics application that leverages **Mixed-Inte
 ## 🚀 Key Features
 
 - **Advanced Technical Scouting DB:** A live analytics search card exposing realistic statistical values for every single player, including Goals, Assists, Value, and official Fantasy ICT (Influence, Creativity, Threat) metrics.
-- **Dynamic Postional Weights:** A built-in feature engineering system computing custom `Form_Index` metrics based on positional responsibilities (e.g., Clean Sheets for Defenders vs. Shot Conversion impact for Forwards).
+- **Dynamic Positional Weights:** A built-in feature engineering system computing custom `Form_Index` metrics based on positional responsibilities (e.g., Clean Sheets for Defenders vs. Shot Conversion impact for Forwards).
 - **Mathematical Multi-Constraint Optimization:** Leverages operations research algorithms to guarantee an optimal squad balance given tight budgetary limits and tactical formations (4-3-3, 4-4-2, 3-5-2, etc.).
 - **Rich Business Intelligence Visualizations:** Built with interactive Plotly visuals mapping tactical money spend, club dependency donut cycles, and technical efficiency vs price scatter graphs.
 - **Risk Mitigation Controls:** Sidebar option allowing recruiters to completely eliminate injured or suspended stars instantly before optimization occurs.
@@ -49,8 +49,6 @@ This application treats squad selection as a formal mathematical optimization pr
    ```bash
    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
    cd YOUR_REPOSITORY_NAME
-
    pip install -r requirements.txt
    python scraper.py
    streamlit run app.py
-   
